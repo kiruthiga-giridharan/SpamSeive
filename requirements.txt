@@ -1,4 +1,7 @@
-scikit-learn>=1.3
-pandas>=2.0
-joblib>=1.3
-streamlit>=1.30
+# Pinned to the versions that trained models/spamsieve.joblib.
+# A pickled scikit-learn model must be loaded with the same scikit-learn version.
+scikit-learn==1.6.1
+numpy==2.0.2
+pandas==2.3.3
+joblib==1.5.3
+streamlit==1.50.0
