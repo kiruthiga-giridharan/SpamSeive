@@ -1,5 +1,9 @@
 # 🛡️ SpamSieve
 
+[![Live demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://spamsieve-sms.streamlit.app/)
+
+**Live demo: https://spamsieve-sms.streamlit.app/**. If the app has been asleep, click "Yes, get this app back up!" and wait about 30 seconds.
+
 SpamSieve is a small web app that tells you whether a text message looks like spam. Paste in a single message, or upload a CSV of messages to check them all at once and download the results.
 
 ## Features
@@ -7,6 +11,16 @@ SpamSieve is a small web app that tells you whether a text message looks like sp
 - **Spam probability.** You get a confidence score for each message, not just a yes/no answer.
 - **Adjustable threshold.** Raise it to flag fewer messages or lower it to catch more.
 - **Batch checking.** Upload a CSV, pick the message column, and download the results with a spam probability for each row.
+
+## Screenshots
+
+| Spam detected | Legitimate message |
+|---|---|
+| ![Spam message flagged](docs/images/spam-message.png) | ![Legitimate message](docs/images/legit-message.png) |
+
+**Batch checking:** 10 messages from the SMS Spam Collection; the 4 flagged are exactly the 4 real spam messages.
+
+![Batch CSV results](docs/images/batch-csv.png)
 
 ## How it works
 
